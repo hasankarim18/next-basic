@@ -5,7 +5,7 @@ const Page = () => {
     return (
         <div>
             <Menu />
-            <h1 className="text-3xl">This is Main Dashboard</h1>
+            <h1 className="text-3xl">This is Main Dashboarasdd</h1>
         </div>
     );
 };
