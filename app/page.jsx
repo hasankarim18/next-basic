@@ -12,7 +12,7 @@ const Page = () => {
   return (
     <div className="container mx-auto">
       <Menu />
-      <h1>This is Home page</h1>
+      <h1>This is Home page prod</h1>
       <div className="m-4">
         <button onClick={()=> {goto('/posts')}} className="btn py-2 px-4 bg-blue-400 rounded-lg ">Goto Post</button>
       </div>
