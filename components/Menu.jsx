@@ -18,7 +18,7 @@ const Menu = () => {
                      prefetch
                      className="p-2 inline-block"
                      href={{pathname:"/product",query:{name:"book", price:"200Taka"} }} 
-                     >Product</Link>
+                     >All Product</Link>
                 </li>
                 <li className={` rounded-md ${currentPath === '/profile' ? 'active-link' :'pending-link'}`}>
                     <Link className="p-2 inline-block"
